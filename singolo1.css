@@ -1,0 +1,172 @@
+.wrapper {
+    width: 1020px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 89px;
+    background-color: #2d303a;
+    padding: 0px 40px;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    width: 370px;
+    line-height: 90px;
+}
+
+nav a {
+    font-size: 12px;
+    line-height: 6px;
+    color: #ffffff;
+    font-family: "Lato";
+    font-weight: 700;
+    text-align: left;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 25px;
+    line-height: 6px;
+    color: #ffffff;
+    font-family: "Lato";
+    font-weight: 700;
+    text-align: left;
+    line-height: 90px;
+}
+
+.logo span {
+    color: #f06c64;
+}
+
+.header-bottom {
+    height: 6px;
+    background-color: #323746;
+}
+
+.slider {
+    width: 1020px;
+    height: 600px;
+    background-color: #f06c64;
+}
+
+.slider-bottom {
+    width: 1020px;
+    height: 15px;
+    background-color: #ea676b;
+}
+
+.services-wrapper {
+    width: 1020px;
+    height: 495px;
+    background-color: #f2f2f2;
+}
+
+.services {
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 55px;
+}
+
+.services-bottom {
+    width: 1020px;
+    height: 6px;
+    background-color: #ffffff;
+}
+
+.service-elements {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  
+    margin-top: 47px;
+}
+
+.service {
+    width: 220px;
+    margin-bottom: 30px;
+    padding-left: 80px;
+  
+    background: transparent no-repeat top left;
+  }
+  
+  .design {
+    background-image: url("assets/images/design.svg");
+  }
+  
+  .ideas {
+    background-image: url("assets/images/ideas.svg");
+  }
+  
+  .love {
+    background-image: url("assets/images/love.svg");
+  }
+  
+  .layout {
+    background-image: url("assets/images/layout.svg");
+  }
+  
+  .support {
+    background-image: url("assets/images/support.svg");
+  }
+  
+  .star {
+    background-image: url("assets/images/star.svg");
+}
+
+
+.services h2 {
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+}
+
+.services h3 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+}
+
+.services > p {
+    margin-top: 25px;
+    width: 940px;
+    height: 57px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: left;
+}
+.service p {
+    margin-block-start: 12px;
+    margin-block-end: 0;
+    max-height: 65px;
+
+    width: 219px;
+    height: 128px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+}
+
+.services-bottom {
+    width: 1020px;
+    height: 6px;
+    background-color: #ffffff;
+}
