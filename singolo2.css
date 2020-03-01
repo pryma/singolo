@@ -1,0 +1,144 @@
+.wrapper {
+    width: 1020px;
+    margin: 0 auto;
+}
+
+.portfolio {
+    height: 870px;
+    background-color: #2d303a;
+}
+
+.portfolio>div {
+    width: 92%;
+    margin: 0 auto;
+}
+
+.portfolio h2 {
+    padding: 70px 0 25px 0;
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    letter-spacing: 0.4px;
+}
+
+.portfolio p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: left;
+    letter-spacing: -0.2px;
+    padding-bottom: 12px;
+}
+
+.portfolio ul {
+    width: 290px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio li {
+    padding: 0 6px;
+    height: 22px;
+    border-radius: 5px;
+    border: 1px solid #666d89;
+}
+
+.portfolio li a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 18px;
+    padding-top: 17px;
+}
+
+.portfolio-bottom {
+    width: 1020px;
+    height: 6px;
+    background-color: #323746;
+}
+
+.about {
+    height: 728px;
+    background-color: #f2f2f2;
+}
+
+.about>div {
+    width: 92%;
+    margin: 0 auto;
+}
+
+.about>div>h2 {
+    padding-top: 62px;
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    letter-spacing: 0.5px;
+}
+
+.about>div>p {
+    padding-top: 25px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: left;
+    letter-spacing: 0.2px;
+}
+
+.people {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 15px;
+}
+
+.people>div {
+    width: 300px;
+}
+
+.people>div>div {
+    width: 155px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.name {
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    padding-top: 13px;
+    letter-spacing: 0.5px;
+}
+
+.about-desc {
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+    padding-top: 10px;
+    letter-spacing: 0.1px;
+}
