@@ -1,0 +1,99 @@
+.wrapper {
+    width: 1020px;
+    margin: 0 auto;
+
+}
+
+.contact {
+    height: 648px;
+    background-color: #f06c64;
+    padding: 69px 40px;
+}
+
+.contact p:nth-child(1) {
+    letter-spacing: 0.1px;
+    font-size: 30px;
+    line-height: 18px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    
+}
+
+.contact p:nth-child(2) {
+    margin-top: 26px;
+    margin-bottom: 46px;
+    width: 940px;
+    height: 57px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: left;
+}
+
+.form-contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    padding-left: 10px;
+    width: 610px;
+    height: 38px;
+    border-radius: 5px;
+    background-color: #d6564f;
+    border: none;
+    margin-bottom: 14px;
+}
+
+input::placeholder {
+    font-size: 12px;
+    line-height: 22px;
+    color: #f48c8f;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+}
+
+textarea {
+    
+    width: 615px;
+    height: 202px;
+    border-radius: 5px;
+    background-color: #d6564f;
+    border: none;
+
+    font-size: 12px;
+    line-height: 22px;
+    color: #f48c8f;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+}
+
+.contact-info {
+    width: 300px;
+}
+
+.contact-info p:nth-child(1) {
+    font-size: 18px;
+    line-height: 18px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+}
+
+.contact-info p:nth-child(2) {
+    width: 300px;
+    height: 175px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+}
