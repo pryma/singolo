@@ -6,7 +6,7 @@
 header {
     display: flex;
     justify-content: space-between;
-    height: 89px;
+    height: 90px;
     background-color: #2d303a;
     padding: 0px 40px;
 }
@@ -18,7 +18,7 @@ header ul {
 
 nav {
     width: 370px;
-    line-height: 90px;
+    line-height: 95px;
 }
 
 nav a {
@@ -50,12 +50,91 @@ nav a {
     background-color: #323746;
 }
 
-.slider {
+.slider-wrapper {
     width: 1020px;
     height: 600px;
     background-color: #f06c64;
 }
 
+.slider {
+    display: flex;
+    line-height: 600px;
+    justify-content: space-between;
+}
+
+.arrow_left {
+    width: 70px;
+    height: 600px;
+}
+
+.arrow_left img {
+    padding-left: 42px;
+}
+
+.arrow_right {
+    width: 70px;
+    height: 600px;
+}
+
+.arrow_right img {
+    transform: rotate(180deg);
+    padding-right: 15px;
+}
+
+.phone-vertical {
+    position: absolute;
+}
+
+.phone-vertical-shadow {
+    position: absolute;
+    top: 53px;
+    left:112px;
+    z-index: 0;
+}
+
+.phone-vertical-phone {
+    position: absolute;
+    top: 53px;
+    left:112px;
+    z-index: 1;
+}
+
+.phone-vertical-screen {
+    position: absolute;
+    top: 115px;
+    left:123px;
+    z-index: 2;
+}
+
+.phone-horizontal {
+    position: absolute;
+}
+
+.rotate90 {
+    transform: rotate(90deg);
+}
+
+.phone-horizontal-shadow {
+    position: absolute;
+    top: -242px;
+    right: -788px;
+    z-index: 0;
+    transform: scale(1, -1);
+}
+
+.phone-horizontal-phone {
+    position: absolute;
+    top: 53px;
+    right: -762px;
+    z-index: 1;
+}
+
+.phone-horizontal-screen {
+    position: absolute;
+    top: 74px;
+    right: -821px;
+    z-index: 2;
+}
 .slider-bottom {
     width: 1020px;
     height: 15px;
