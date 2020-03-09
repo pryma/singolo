@@ -123,8 +123,8 @@ nav ul li:nth-child(1) a {
 
 .phone-vertical-screen {
     position: absolute;
-    top: 115px;
-    left:123px;
+    top: 114px;
+    left:122px;
     z-index: 2;
 }
 
@@ -138,13 +138,14 @@ nav ul li:nth-child(1) a {
 
 .phone-horizontal-shadow {
     position: absolute;
-    top: -242px;
+    top: 52px;
     right: -788px;
     z-index: 0;
-    transform: scale(1, -1);
+    transform: scale(1, -1) rotate(90deg);
 }
 
 .phone-horizontal-phone {
+    transform: rotate(90deg);
     position: absolute;
     top: 53px;
     right: -762px;
@@ -153,7 +154,7 @@ nav ul li:nth-child(1) a {
 
 .phone-horizontal-screen {
     position: absolute;
-    top: 74px;
+    top: 185px;
     right: -821px;
     z-index: 2;
 }
@@ -262,6 +263,7 @@ nav ul li:nth-child(1) a {
     font-family: "Lato";
     font-weight: 400;
     text-align: left;
+    overflow: hidden;
 }
 
 .services-bottom {
@@ -337,9 +339,11 @@ nav ul li:nth-child(1) a {
 
 .gallery {
     display: grid;
+    height: 600px;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 18px;
     padding-top: 17px;
+    overflow: hidden;
 }
 
 .gallery a:hover {
@@ -431,6 +435,10 @@ nav ul li:nth-child(1) a {
     text-align: left;
     padding-top: 10px;
     letter-spacing: 0.1px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 45px;
 }
 
 
