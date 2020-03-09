@@ -31,6 +31,14 @@ nav a {
     text-decoration: none;
 }
 
+nav ul li a:hover {
+    color: #f06c64;
+}
+
+nav ul li:nth-child(1) a {
+    color: #f06c64;
+}
+
 .logo {
     font-size: 25px;
     line-height: 6px;
@@ -71,6 +79,14 @@ nav a {
 .arrow_left {
     width: 70px;
     height: 600px;
+}
+
+.arrow_left > a:hover {
+    filter: invert(29%) sepia(78%) saturate(150%) hue-rotate(330deg) brightness(93%) contrast(79%);
+}
+
+.arrow_right > a:hover {
+    filter: invert(29%) sepia(78%) saturate(150%) hue-rotate(330deg) brightness(93%) contrast(79%);
 }
 
 .arrow_left img {
@@ -315,11 +331,19 @@ nav a {
     text-align: left;
 }
 
+.portfolio li a:hover {
+    color: #ffffff;
+}
+
 .gallery {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 18px;
     padding-top: 17px;
+}
+
+.gallery a:hover {
+    opacity: 30%;
 }
 
 .portfolio-bottom {
@@ -366,6 +390,14 @@ nav a {
     justify-content: space-between;
     width: 100%;
     padding-top: 15px;
+}
+
+.people a img {
+    filter: invert(46%) sepia(20%) saturate(800%) hue-rotate(200deg) brightness(100%) contrast(100%);
+}
+
+.people a img:hover {
+    filter: invert(100%) sepia(100%) saturate(430%) hue-rotate(188deg) brightness(200%) contrast(752%);
 }
 
 .people>div {
@@ -480,6 +512,22 @@ textarea {
     text-align: left;
 }
 
+button {
+    height: 38px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #f48c8f;
+    font-size: 12px;
+    font-weight: 400;
+    color: #d6564f;
+    border: none;
+}
+
+button:hover {
+    color: #f48c8f;
+    background-color: #d6564f;
+}
+
 .contact-info {
     width: 300px;
 }
@@ -541,6 +589,14 @@ footer div:nth-child(1) {
 }
 
 footer div:nth-child(2) {
-    padding-right: 40px;
-    padding-top: 28px;
+    padding-right: 45px;
+    padding-top: 22px;
+}
+
+footer div a img {
+    filter: invert(46%) sepia(20%) saturate(800%) hue-rotate(200deg) brightness(100%) contrast(100%);
+}
+
+footer div a img:hover {
+    filter: invert(100%) sepia(100%) saturate(430%) hue-rotate(188deg) brightness(200%) contrast(752%);
 }
