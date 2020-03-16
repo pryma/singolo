@@ -31,13 +31,18 @@ nav a {
     text-decoration: none;
 }
 
-nav ul li a:hover {
+
+.nav-active {
     color: #f06c64;
 }
 
-nav ul li:nth-child(1) a {
+
+nav ul li a:not(.nav-active):hover {
     color: #f06c64;
 }
+
+
+
 
 .logo {
     font-size: 25px;
@@ -612,4 +617,25 @@ footer div a img {
 
 footer div a img:hover {
     filter: invert(100%) sepia(100%) saturate(430%) hue-rotate(188deg) brightness(200%) contrast(752%);
+}
+
+#submit-replay {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: rgba(173, 148, 148, 0.533);
+}
+
+#submit-replay.hidden-replay {
+    display: none;
+}
+
+#message-replay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 2px solid black;
+    text-align: center;
 }
